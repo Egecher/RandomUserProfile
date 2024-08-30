@@ -71,3 +71,40 @@ hr {
     height: 1px;
     background: #ccc;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+    body {
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #profile-card {
+        padding: 15px;
+        width: 100%;
+        margin: 20px auto;
+        max-width: 90%;
+    }
+
+    #image {
+        width: 120px;
+        height: 120px;
+    }
+
+    #username {
+        font-size: 20px;
+    }
+
+    #details {
+        font-size: 12px;
+    }
+
+    hr {
+        width: 100%;
+    }
+}
